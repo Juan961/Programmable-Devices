@@ -16,6 +16,7 @@ Some of the code to integrate the screen (Nokia 5110) and manage the ADC module 
 - Virtual keyboard with a joystick (HW-504) on a screen (Nokia 5110)
 - Displaying the X and Y values of the joystick (HW-504) on a screen (Nokia 5110)
 - Moving a letter around the screen (Nokia 5110) with the joystick (HW-504)
+- Show a text ("Here") in the screen (Nokia 5110) based on the posision
 - Exam 1
 
 ## 💽 ESP32
