@@ -4,6 +4,8 @@ Here is a list of the resources and code that we created during the Programmable
 
 ## 🖲️ PIC18F4550
 
+Some of the code to integrate the screen (Nokia 5110) and manage the ADC module of the PIC are based on the tutorials of [Electronic Wings](https://www.electronicwings.com/pic)
+
 ### Assembler
 - PORTB full with LEDs
 - Delay: Custom delay
