@@ -18,5 +18,7 @@ Some of the code to integrate the screen (Nokia 5110) and manage the ADC module 
 - Moving a letter around the screen (Nokia 5110) with the joystick (HW-504)
 - Show a text ("Here") in the screen (Nokia 5110) based on the posision
 - Exam 1
+- KeyPad4x4 Write in the screen (Nokia 5110) using a 4x4 keypad, with functions to write, backspace, and clear the screen
+- KeyPad4x4SingleCalculator Write in the screen (Nokia 5110) using a 4x4 keypad, a function to calculate the result of the expression
 
 ## 💽 ESP32
