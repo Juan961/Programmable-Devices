@@ -23,3 +23,4 @@ Some of the code to integrate the screen (Nokia 5110) and manage the ADC module 
 
 ## 💽 ESP32
 - Exam 2
+- PWM: Regulate frequency and duty cycle of a PWM signal. Create a mini replica of a servo motor library
