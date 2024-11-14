@@ -91,22 +91,20 @@ void setup(void) {
 }
 
 void loop() {
-  Serial.println("=============== Start ===============");
-
   ledcWrite(MOTOR_PIN_PWM, 110);
 
-  delay(1000);
+  delay(500);
 
   start_time = millis();
   start = true;
 
   timerAlarm(timer, 10000, true, 0); // Set up alarm for 10ms based on the frecuency of 1Mhz, 50000us, repeating
 
-  delay(500);
+  delay(250);
 
   ledcWrite(MOTOR_PIN_PWM, 250);
 
-  delay(500);
+  delay(250);
 
   timerStop(timer);
 
@@ -114,7 +112,5 @@ void loop() {
 
   ledcWrite(MOTOR_PIN_PWM, 0);
 
-  Serial.println("=============== End ===============");
-
-  delay(100);
+  delay(1000000);
 }
